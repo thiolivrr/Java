@@ -1,0 +1,22 @@
+public class Boletim {
+	double notaNP1;
+	double notaNP2;
+	
+	public Boletim(double aNotaNP1, double aNotaNP2) {
+		notaNP1 = aNotaNP1;
+		notaNP1 = aNotaNP2;
+	}
+	
+	double media() {
+		double media = (notaNP1 + notaNP2) / 2;
+		return media;
+	}
+	
+	boolean passou() {
+		if ((notaNP1 + notaNP2) / 2  > 7 ) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+}

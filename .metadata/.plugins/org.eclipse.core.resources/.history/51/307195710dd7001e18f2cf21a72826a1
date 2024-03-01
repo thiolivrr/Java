@@ -1,0 +1,12 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Aluno aluno = new Aluno("G7695H4", new Nome("Thiago", "Sousa"), 9.9, 9.1);
+		Cadastro thiago = new Cadastro(new Nome("Thiago", "Sousa"), new Endereco("Rua Arthur Biancalana Filho", 92));
+		System.out.println(thiago);
+		Boletim jao = new Boletim(8.5, 9.2);
+		jao.media();
+	}
+
+}

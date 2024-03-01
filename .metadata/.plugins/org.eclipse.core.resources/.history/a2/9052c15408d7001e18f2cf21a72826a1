@@ -1,0 +1,20 @@
+
+public class Aluno {
+	String ra;
+	String nome;
+	double notaNP1;
+	double notaNP2;
+	
+	public Aluno(String aRa, String aNome, double aNotaNP1, double aNotaNP2) {
+		ra = aRa;
+		nome = aNome;
+		notaNP1 = aNotaNP1;
+		notaNP2 = aNotaNP2;
+	}
+	
+	
+	public void relatorio() {
+		System.out.println(this);
+	}
+}
+

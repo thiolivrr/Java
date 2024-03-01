@@ -1,0 +1,22 @@
+
+public class Pato {
+	String nome;
+	int ano;
+	
+	public Pato(String aNome, int aAno) {
+		nome = aNome;
+		ano = aAno;
+	}
+
+	public static void voa() {
+		System.out.println("O pato voa");
+	}
+	
+	public static void nada() {
+		System.out.println("O pato nada");
+	}
+	
+	public static void quack() {
+		System.out.println("Quack");
+	}
+}

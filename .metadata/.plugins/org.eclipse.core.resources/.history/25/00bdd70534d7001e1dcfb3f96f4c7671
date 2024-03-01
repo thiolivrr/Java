@@ -1,0 +1,11 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Cachorro barney = new Cachorro("Barney", 23.5);
+		barney.setIdade(27);
+		System.out.println(barney);
+
+	}
+
+}

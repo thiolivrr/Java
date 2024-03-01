@@ -1,0 +1,19 @@
+
+public class PatoMadeira extends Pato {
+	public PatoMadeira(String nome, int ano) {
+		super(nome, ano);
+	}
+	
+	public static void voa() {
+		System.out.println("O pato não voa");
+	}
+	
+	public static void nada() {
+		System.out.println("O pato boia");
+	}
+	
+	public static void quack() {
+		System.out.println("...");
+	}
+
+}

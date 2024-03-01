@@ -1,0 +1,12 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Pato pato = new Pato("Junior", 9);
+		pato.voa();
+		pato.nada();
+		pato.quack();
+
+	}
+
+}

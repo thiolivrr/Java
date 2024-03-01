@@ -1,0 +1,29 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Pato pato = new Pato("Junior", 9);
+		pato.voa();
+		pato.nada();
+		pato.quack();
+		PatoMadeira patoMadeira = new PatoMadeira("Junior", 9);
+		patoMadeira.voa();
+		patoMadeira.nada();
+		patoMadeira.quack();
+		PatoBorracha PatoBorracha = new PatoBorracha("Saito", "azul", 10);
+		PatoBorracha.voa();
+		PatoBorracha.nada();
+		PatoBorracha.quack();
+		SuperPato SuperPato = new SuperPato("Omni", 10, 99);
+		SuperPato.voa();
+		SuperPato.nada();
+		SuperPato.quack();
+		
+		int[] minutos = {10, 15, 20};
+		ContaTelefone conta = new ContaTelefone("3542-7489",  minutos);
+		System.out.println(conta.getTotalMinutos());
+		System.out.println(conta.getValor());
+		System.out.println(conta);
+	}
+
+}

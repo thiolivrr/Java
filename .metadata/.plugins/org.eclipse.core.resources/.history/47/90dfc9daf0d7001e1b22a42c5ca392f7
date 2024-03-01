@@ -1,0 +1,6 @@
+
+public class ContaTelefone {
+	String nome;
+	int minutos;
+	
+}
