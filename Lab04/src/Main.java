@@ -10,9 +10,8 @@ public class Main {
     	System.out.println("Digite o numero de páginas da publicação: ");
     	int paginas = scanner.nextInt();
     	
-        Publicacao publicacao = new Publicacao(titulo, codigo, paginas, 24);
+        Publicacao publicacao = new Publicacao(titulo, codigo, paginas, 9.756785f);
         System.out.println(publicacao);
-        scanner.close();
-        
+        scanner.close(); 
     }
 }

@@ -12,7 +12,7 @@ public class Publicacao {
         this.titulo = titulo;
         this.codigo = codigo;
         this.numero_de_paginas = numero_de_paginas;
-        this.custo = 24;
+        this.custo = custo;
     }
     
     @Override
